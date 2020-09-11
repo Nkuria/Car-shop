@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@font-face {
+  font-family: helve-bold;
+  src: url(/fonts/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+
+@font-face {
+  font-family: helve-light;
+  src: url(/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf);
+}
+
+@font-face {
+  font-family: helve-medium;
+  src: url(/fonts/FontsFree-Net-HelveticaNeueMedium.ttf);
+}
+
+@font-face {
+  font-family: goth-bold;
+  src: url(/fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+  font-family: goth-light;
+  src: url(/fonts/Gotham-Rounded-Light_21020.ttf);
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: goth-bold;
+}
+/*# sourceMappingURL=main.css.map */

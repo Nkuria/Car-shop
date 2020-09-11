@@ -1,0 +1,37 @@
+@font-face {
+    font-family: helve-bold;
+    src: url(/fonts/FontsFree-Net-HelveticaNeueBold.ttf);
+}
+
+@font-face{
+    font-family: helve-light;
+    src: url(/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf);
+}
+
+@font-face {
+    font-family: helve-medium;
+    src: url(/fonts/FontsFree-Net-HelveticaNeueMedium.ttf);
+}
+
+@font-face {
+    font-family: goth-bold;
+    src: url(/fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: goth-light;
+    src: url(/fonts/Gotham-Rounded-Light_21020.ttf);
+}
+
+$red-color: #d35266;
+$grey-colo: #888;
+$dark-color: #383838;
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
