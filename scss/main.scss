@@ -27,6 +27,10 @@
     @include flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 6%;
+    .home {
+        color: $red-color;
+    }
    
 }
 
@@ -47,7 +51,7 @@
     @include flex;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 3%;
+    margin-right: 6%;
     img {
         margin-left: 3%;
     }
@@ -61,5 +65,36 @@
     @include flex-column;
     align-items: center;
     justify-content: center;
+    padding-top: 5%;
+    color: white;
     
+}
+
+.input {
+    @include flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+
+    input {
+        height: 6vh;
+        border-color: $red-color;
+        border-width: 1px;
+    }
+
+    a {
+        background-color: $dark-color;
+        margin-left: 1%;
+        height: 6vh;
+        width: 8vw;
+    }
+}
+
+.input1 {
+    width: 13vw;
+}
+
+.input2 {
+    width: 25vw;
 }
