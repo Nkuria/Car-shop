@@ -1,5 +1,65 @@
 @import './variables-resets';
-body {
-    font-family: goth-bold;
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin flex-column {
+    @include flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: $red-color;
+    height: 30%;
+}
+
+.nav-bar {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    background-color: $dark-color;
+}
+
+.nav-left {
+    @include flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo-img {
+    width: 10%;
+}
+
+.doe-img {
+    width: 5%;
+    height: auto;
+}
+
+.ad-btn {
+    background-color: $red-color;
+}
+
+.nav-right {
+    @include flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+    img {
+        margin-left: 3%;
+    }
+
+    i {
+        margin-right: 3%;
+    }
+}
+
+.name {
+    @include flex-column;
+    align-items: center;
+    justify-content: center;
     
 }
