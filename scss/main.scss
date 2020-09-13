@@ -112,7 +112,7 @@
 .ad {
     @include flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     
 
     .fa-arrow-circle-left, .fa-arrow-circle-right {
@@ -125,6 +125,10 @@
     button {
         color: white;
     }
+}
+
+.ad-img{
+    width: 100%;
 }
 
 .ad-details {
@@ -180,4 +184,50 @@
 .car-price {
     margin-left: 3%;
     margin-right: 3%;
+}
+
+footer {
+   width: 100%;
+}
+
+.ftr-left {
+    width: 30%;
+}
+
+.ftr-right-head {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: $red-color;
+}
+
+.ftr-content {
+    width: 100%;
+}
+
+.ftr-right-1 {
+    padding-left: 5%;
+    width: 100%;
+}
+
+.copyright {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 985px) {
+    .ad-section {
+        margin: 0;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+    .ad-section {
+        margin: 0;
+        width: 100%;
+
+    }
+
 }

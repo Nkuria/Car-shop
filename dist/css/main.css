@@ -220,9 +220,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ad .fa-arrow-circle-left, .ad .fa-arrow-circle-right {
@@ -234,6 +234,10 @@ img {
 
 .ad button {
   color: white;
+}
+
+.ad-img {
+  width: 100%;
 }
 
 .ad-details {
@@ -307,5 +311,47 @@ img {
 .car-price {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+footer {
+  width: 100%;
+}
+
+.ftr-left {
+  width: 30%;
+}
+
+.ftr-right-head {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #d35266;
+}
+
+.ftr-content {
+  width: 100%;
+}
+
+.ftr-right-1 {
+  padding-left: 5%;
+  width: 100%;
+}
+
+.copyright {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 985px) {
+  .ad-section {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .ad-section {
+    margin: 0;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
