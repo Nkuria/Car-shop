@@ -24,7 +24,7 @@
 }
 
 $red-color: #d35266;
-$grey-colo: #888;
+$grey-color: #888;
 $dark-color: #383838;
 
 
@@ -34,9 +34,55 @@ $dark-color: #383838;
   padding: 0;
 }
 
+body {
+    font-family: goth-light;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+.text-red {
+    color: $red-color;
+}
+
+.text-grey {
+    color: $grey-color;
+}
+
+.helve-bold {
+    font-family: helve-bold;
+}
+
+.helve-light {
+    font-family: helve-light;
+}
+
+.helve-medium {
+    font-family: helve-medium;
+}
+
+.goth-bold {
+    font-family: goth-bold;
+}
+
+.goth-light {
+    font-family: goth-light;
+
+}
+
+.bg-red {
+    background-color: $red-color;
+}
+
+
+
 
 

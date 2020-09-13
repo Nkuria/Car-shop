@@ -30,9 +30,51 @@
   padding: 0;
 }
 
+body {
+  font-family: goth-light;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.text-red {
+  color: #d35266;
+}
+
+.text-grey {
+  color: #888;
+}
+
+.helve-bold {
+  font-family: helve-bold;
+}
+
+.helve-light {
+  font-family: helve-light;
+}
+
+.helve-medium {
+  font-family: helve-medium;
+}
+
+.goth-bold {
+  font-family: goth-bold;
+}
+
+.goth-light {
+  font-family: goth-light;
+}
+
+.bg-red {
+  background-color: #d35266;
 }
 
 .header {
@@ -160,5 +202,110 @@ a {
 
 .input2 {
   width: 25vw;
+}
+
+.ad-section {
+  width: 50%;
+  margin: 2% auto;
+}
+
+.hot-deals {
+  margin-left: 12%;
+}
+
+.ad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ad .fa-arrow-circle-left, .ad .fa-arrow-circle-right {
+  font-size: 30px;
+  color: #d35266;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.ad button {
+  color: white;
+}
+
+.ad-details {
+  margin-left: 3%;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-bottom-style: solid;
+  border-bottom-color: #888;
+  border-width: 1px;
+}
+
+.cards-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.cards-part p {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.cards-part .fa-chevron-left {
+  margin-right: 3%;
+  font-size: 20px;
+}
+
+.cards-part .fa-chevron-right {
+  font-size: 20px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 17%;
+  -webkit-box-shadow: 0 4px 8px 0 #383838;
+          box-shadow: 0 4px 8px 0 #383838;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 2%;
+}
+
+.cards:hover {
+  -webkit-box-shadow: 0 8px 16px 0 #383838;
+          box-shadow: 0 8px 16px 0 #383838;
+}
+
+.car-price {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 /*# sourceMappingURL=main.css.map */

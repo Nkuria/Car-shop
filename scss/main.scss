@@ -98,3 +98,86 @@
 .input2 {
     width: 25vw;
 }
+
+.ad-section {
+    width: 50%;
+    margin: 2% auto;
+
+}
+
+.hot-deals {
+    margin-left: 12%;
+}
+
+.ad {
+    @include flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    .fa-arrow-circle-left, .fa-arrow-circle-right {
+        font-size: 30px;
+        color: $red-color;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    button {
+        color: white;
+    }
+}
+
+.ad-details {
+    margin-left: 3%;
+}
+
+.heading {
+    @include flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom-style: solid;
+    border-bottom-color: $grey-color;
+    border-width: 1px;
+
+}
+
+.cards-part {
+   @include flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+    p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .fa-chevron-left{
+        margin-right: 3%;
+        font-size: 20px;
+    }
+
+    .fa-chevron-right {
+        font-size: 20px;
+    }
+}
+
+.cards {
+    @include flex-column;
+    width: 17%;
+    box-shadow: 0 4px 8px 0 $dark-color;
+    transition: 0.3s;
+    margin-right: 2%;
+    &:hover {
+        box-shadow: 0 8px 16px 0 $dark-color;
+    }
+    
+}
+
+.car-price {
+    margin-left: 3%;
+    margin-right: 3%;
+}
