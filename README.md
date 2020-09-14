@@ -35,4 +35,4 @@ Show your support Give a ⭐️ if you like this project!
 
 Acknowledgments Hat tip to anyone whose code was used Inspiration etc
 
-📝 License This project is a collaboration project of microverse students. All rights are reserved for and Nick.
+📝 License This project is a aolo project of a microverse student. All rights are reserved for and Nick.
