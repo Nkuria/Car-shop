@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/16d2250538.js"
       crossorigin="anonymous"
@@ -10,105 +10,290 @@
     <title>BuynDrive</title>
 
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./dist/css/search.css">
-</head>
+    <link rel="stylesheet" href="./dist/css/search.css" />
+  </head>
 
-<body>
-   <header class="header">
-       <nav class="nav-bar">
-           <div class="nav-left">
-            <img class="logo-img p-0" src="images/logo.png" alt="Logo">
-               <a class ="home" href="#"><i class="fas fa-home"></i> Home</a>
-               <a href="#"><i class="fas fa-th-large"></i> Collections</a>
-               <a href="#"><i class="fas fa-shopping-cart"></i></a>
-               <button class="btn ad-btn" type="button">Post an AD</button>
-           
-            </div>
-           <div class="nav-right d-none d-md-none">
-            <i class="fas fa-envelope"></i>
-            John Doe
-            <img class="doe-img" src="images/john-doe.jpg" alt="John Doe">
-           </div>
-       </nav>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="nav-left">
+          <img class="logo-img p-0" src="images/logo.png" alt="Logo" />
+          <a class="home" href="#"><i class="fas fa-home"></i> Home</a>
+          <a href="#"><i class="fas fa-th-large"></i> Collections</a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <button class="btn ad-btn" type="button">Post an AD</button>
+        </div>
+        <div class="nav-right d-none d-md-none">
+          <i class="fas fa-envelope"></i>
+          John Doe
+          <img class="doe-img" src="images/john-doe.jpg" alt="John Doe" />
+        </div>
+      </nav>
 
-       <div class="name">
-           <p class="h1">
-               BuynDrive
-           </p>
+      <div class="name">
+        <p class="h1">BuynDrive</p>
 
-           <p>All your Car need in one place at affordable prices</p>
-           <div class="input">
-           
-            <input class="input1" type="text" value="  All types">
-            <input class="input2" type="text" value="  Search by Category">
-            <input class="input3" type="text" value="  Filter">
-            <a class="btn search w-100" href="#">Search</a>
-           </div>
-       </div>
-   </header>
-<main class="container">
-    <div class="left col-2 border-right">
-        <div class="checkbox-1 d-flex justify-content-between">
+        <p>All your Car need in one place at affordable prices</p>
+        <div class="input">
+          <input class="input1" type="text" value="  All types" />
+          <input class="input2" type="text" value="  Search by Category" />
+          <input class="input3" type="text" value="  Filter" />
+          <a class="btn search w-100" href="#">Search</a>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="left col-12 col-md-3 border-right">
+          <div class="checkbox-1 d-flex justify-content-between">
             <div>
-            <input type="checkbox" id="buy" name="buy" value="buy">
-            <label for="buy"> Buy </label>
-        </div>
-    <div>
-            <input type="checkbox" id="repairs" name="repairs" value="repairs">
-            <label for="repairs"> repairs </label>
-        </div>
+              <input type="checkbox" id="buy" name="buy" value="buy" />
+              <label for="buy"> Buy </label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="repairs"
+                name="repairs"
+                value="repairs"
+              />
+              <label for="repairs"> repairs </label>
+            </div>
+          </div>
 
-        </div>
-
-        <div class="checkbox-2">
+          <div class="checkbox-2">
             <p class="goth-bold">Model</p>
-            <hr>
-            <input type="checkbox" id="Sedan" name="sedan" value="Sedan">
+            <hr />
+            <input type="checkbox" id="Sedan" name="sedan" value="Sedan" />
             <label for="buy"> Sedan </label>
-            <br>
-            <input type="checkbox" id="hatchback" name="hatchback" value="hatchback">
-            <label for="hatchback"> hatchback </label> 
-            <br>
-            <input type="checkbox" id="SUV" name="SUV" value="SUV">
+            <br />
+            <input
+              type="checkbox"
+              id="hatchback"
+              name="hatchback"
+              value="hatchback"
+            />
+            <label for="hatchback"> hatchback </label>
+            <br />
+            <input type="checkbox" id="SUV" name="SUV" value="SUV" />
             <label for="buy"> SUV </label>
-        </div>
+          </div>
 
-        <div class="checkbox-2">
+          <div class="checkbox-2">
             <p class="goth-bold">Make</p>
-            <hr>
-            <input type="checkbox" id="toyota" name="toyota" value="toyota">
+            <hr />
+            <input type="checkbox" id="toyota" name="toyota" value="toyota" />
             <label for="toyota"> Toyota </label>
-            <br>
-            <input type="checkbox" id="bmw" name="BMW" value="BMW">
-            <label for="bmw"> BMW </label> 
-            <br>
-            <input type="checkbox" id="Mazda" name="Mazda" value="Mazda">
+            <br />
+            <input type="checkbox" id="bmw" name="BMW" value="BMW" />
+            <label for="bmw"> BMW </label>
+            <br />
+            <input type="checkbox" id="Mazda" name="Mazda" value="Mazda" />
             <label for="Mazda"> Mazda </label>
-        </div>
+          </div>
 
-        <div class="checkbox-2">
+          <div class="checkbox-2">
             <p class="goth-bold">Price</p>
-            <hr>
-            <input type="checkbox" id="p1" name="toyota" value="toyota">
+            <hr />
+            <input type="checkbox" id="p1" name="toyota" value="toyota" />
             <label for="p1"> $500 - $1000 </label>
-            <br>
-            <input type="checkbox" id="p2" name="BMW" value="BMW">
-            <label for="p2"> $1000 - $10000 </label> 
-            <br>
-            <input type="checkbox" id="p3" name="Mazda" value="Mazda">
+            <br />
+            <input type="checkbox" id="p2" name="BMW" value="BMW" />
+            <label for="p2"> $1000 - $10000 </label>
+            <br />
+            <input type="checkbox" id="p3" name="Mazda" value="Mazda" />
             <label for="p3"> $10000-$50000 </label>
-            <br>
-            <input type="checkbox" id="p4" name="Mazda" value="Mazda">
+            <br />
+            <input type="checkbox" id="p4" name="Mazda" value="Mazda" />
             <label for="p5">$50000+ </label>
+          </div>
+        </div>
+        <div class="right col-12 col-md-9">
+          <p class="border-bottom search-par">
+            200 Results found. Found what you are looking for?
+          </p>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex search-items border-bottom border-top">
+            <img class="results-img" src="images/markx.jpeg" alt="Pic here" />
+            <div class="results-details">
+              <p>2011 TOYOTA MARK X 250G S PACKAGE RELAX SELECTION</p>
+              <p class="text-red">Used, EX Japan</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                vero nam saepe ad eveniet voluptates assumenda eaque.
+              </p>
+              <p>Location: Japan</p>
+              <div class="results-end d-flex justify-content-between">
+                <p>10th Septmber 2020</p>
+                <button class="btn bg-red" type="button">$1500</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div
+        class="ftr-top d-flex justify-content-around align-items-center border-bottom"
+      >
+        <div class="ftr-left">
+          <img src="images/logo.png" alt="logo Here" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+            ipsum debitis! Aliquid voluptas animi suscipit atque temporibus quas
+            nulla molestias error impedit? Nulla debitis aliquam consequatur
+            ullam odit error deserunt?
+          </p>
         </div>
 
-    </div>
-    <div class="right col-7">
-        <p>200 Results found. Found what you are looking for?</p>
-    </div>
-</main>
+        <div class="ftr-right">
+          <div class="ftr-right-head">
+            <p class="text-red helve-bold">CATEGORIES</p>
+          </div>
+          <div class="ftr-content d-flex">
+            <div class="ftr-right-1 d-flex flex-column">
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+            </div>
 
-</body>
+            <div class="d-flex flex-column">
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center copyright">
+        copyright <i class="far fa-copyright"></i> BuynDrive.com All Rights
+        Reserved. Designed by Nick Kuria
+      </p>
+    </footer>
+  </body>
 </html>

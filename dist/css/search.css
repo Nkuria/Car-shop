@@ -1,26 +1,26 @@
 @font-face {
   font-family: helve-bold;
-  src: url(/fonts/FontsFree-Net-HelveticaNeueBold.ttf);
+  src: url("/fonts/FontsFree-Net-HelveticaNeueBold.ttf");
 }
 
 @font-face {
   font-family: helve-light;
-  src: url(/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf);
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
 }
 
 @font-face {
   font-family: helve-medium;
-  src: url(/fonts/FontsFree-Net-HelveticaNeueMedium.ttf);
+  src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
 }
 
 @font-face {
   font-family: goth-bold;
-  src: url(/fonts/Gotham-Bold.otf);
+  src: url("/fonts/Gotham-Bold.otf");
 }
 
 @font-face {
   font-family: goth-light;
-  src: url(/fonts/Gotham-Rounded-Light_21020.ttf);
+  src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
 
 * {
@@ -225,7 +225,8 @@ img {
           justify-content: center;
 }
 
-.ad .fa-arrow-circle-left, .ad .fa-arrow-circle-right {
+.ad .fa-arrow-circle-left,
+.ad .fa-arrow-circle-right {
   font-size: 30px;
   color: #d35266;
   margin-left: 4%;
@@ -337,7 +338,8 @@ footer {
     margin: 0;
     width: 100%;
   }
-  .fa-chevron-left, .fa-chevron-right {
+  .fa-chevron-left,
+  .fa-chevron-right {
     display: none;
   }
   .cards {
@@ -350,7 +352,8 @@ footer {
     margin: 0;
     width: 100%;
   }
-  .fa-chevron-left, .fa-chevron-right {
+  .fa-chevron-left,
+  .fa-chevron-right {
     display: none;
   }
 }
@@ -360,7 +363,8 @@ footer {
     margin: 0;
     width: 100%;
   }
-  .fa-chevron-left, .fa-chevron-right {
+  .fa-chevron-left,
+  .fa-chevron-right {
     display: none;
   }
   .cards-part {
@@ -370,5 +374,21 @@ footer {
 
 .checkbox-1 {
   margin-bottom: 5%;
+}
+
+.search-par {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.search-items {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.results-img {
+  margin-right: 3%;
 }
 /*# sourceMappingURL=search.css.map */

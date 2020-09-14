@@ -1,32 +1,31 @@
 @font-face {
-    font-family: helve-bold;
-    src: url(/fonts/FontsFree-Net-HelveticaNeueBold.ttf);
-}
-
-@font-face{
-    font-family: helve-light;
-    src: url(/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf);
+  font-family: helve-bold;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueBold.ttf");
 }
 
 @font-face {
-    font-family: helve-medium;
-    src: url(/fonts/FontsFree-Net-HelveticaNeueMedium.ttf);
+  font-family: helve-light;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
 }
 
 @font-face {
-    font-family: goth-bold;
-    src: url(/fonts/Gotham-Bold.otf);
+  font-family: helve-medium;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
 }
 
 @font-face {
-    font-family: goth-light;
-    src: url(/fonts/Gotham-Rounded-Light_21020.ttf);
+  font-family: goth-bold;
+  src: url("/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: goth-light;
+  src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
 
 $red-color: #d35266;
 $grey-color: #888;
 $dark-color: #383838;
-
 
 * {
   margin: 0;
@@ -35,54 +34,48 @@ $dark-color: #383838;
 }
 
 body {
-    font-family: goth-light;
+  font-family: goth-light;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
 
 .text-red {
-    color: $red-color;
+  color: $red-color;
 }
 
 .text-grey {
-    color: $grey-color;
+  color: $grey-color;
 }
 
 .helve-bold {
-    font-family: helve-bold;
+  font-family: helve-bold;
 }
 
 .helve-light {
-    font-family: helve-light;
+  font-family: helve-light;
 }
 
 .helve-medium {
-    font-family: helve-medium;
+  font-family: helve-medium;
 }
 
 .goth-bold {
-    font-family: goth-bold;
+  font-family: goth-bold;
 }
 
 .goth-light {
-    font-family: goth-light;
-
+  font-family: goth-light;
 }
 
 .bg-red {
-    background-color: $red-color;
+  background-color: $red-color;
 }
-
-
-
-
-
