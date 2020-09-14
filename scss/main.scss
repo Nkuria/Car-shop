@@ -174,7 +174,7 @@
 
 .cards {
   @include flex-column;
- 
+
   width: 17%;
   box-shadow: 0 4px 8px 0 $dark-color;
   transition: 0.3s;
