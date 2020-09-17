@@ -32,10 +32,6 @@
   align-items: center;
   padding-left: 6%;
 
-  a:hover {
-    color: $grey-color;
-  }
-
   .home {
     color: $red-color;
   }
@@ -94,7 +90,7 @@
     width: 8vw;
     color: $grey-color;
   }
-  
+
   input {
     height: 6vh;
     border-color: $red-color;

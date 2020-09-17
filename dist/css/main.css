@@ -39,6 +39,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #888;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -113,10 +117,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 6%;
-}
-
-.nav-left a:hover {
-  color: #888;
 }
 
 .nav-left .home {

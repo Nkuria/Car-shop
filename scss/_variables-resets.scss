@@ -42,6 +42,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: $grey-color;
+}
+
 img {
   max-width: 100%;
   display: block;
