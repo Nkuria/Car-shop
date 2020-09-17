@@ -2,13 +2,13 @@
 
 First Capstone Project
 
-<img src="images/Screenshot_2020-09-14 BuynDrive.png" alt="Screenshot">
-<img src="images/Screenshot_2020-09-14 BuynDrive(1).png" alt="Screenshot">
-
-
 Additional description about the project and its features.
 
 This is a project to demonstrate the existing knowledge of HTML and CSS. It is a Solo project of a car dealership shop
+
+<img src="images/Screenshot_2020-09-14 BuynDrive.png" alt="Screenshot">
+<img src="images/Screenshot_2020-09-14 BuynDrive(1).png" alt="Screenshot">
+
 
 <i>Built With HTML5, CSS3, GIT, Bootstrap, SASS and VSCODE</i>
 

@@ -43,6 +43,8 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-red {
@@ -113,12 +115,16 @@ img {
   padding-left: 6%;
 }
 
+.nav-left a:hover {
+  color: #888;
+}
+
 .nav-left .home {
   color: #d35266;
 }
 
 .logo-img {
-  width: 10%;
+  width: 15%;
 }
 
 .doe-img {

@@ -43,6 +43,8 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-red {
@@ -113,12 +115,16 @@ img {
   padding-left: 6%;
 }
 
+.nav-left a:hover {
+  color: #888;
+}
+
 .nav-left .home {
   color: #d35266;
 }
 
 .logo-img {
-  width: 10%;
+  width: 15%;
 }
 
 .doe-img {
@@ -261,22 +267,13 @@ img {
 }
 
 .cards-part {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(250px, 1fr));
   margin-top: 3%;
   margin-bottom: 5%;
-}
-
-.cards-part p {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.cards-part .fa-chevron-left {
-  margin-right: 3%;
-  font-size: 20px;
-}
-
-.cards-part .fa-chevron-right {
-  font-size: 20px;
+  width: 100%;
 }
 
 .cards {
@@ -287,12 +284,11 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 17%;
+  width: 100%;
   -webkit-box-shadow: 0 4px 8px 0 #383838;
           box-shadow: 0 4px 8px 0 #383838;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  margin-right: 3%;
   margin-bottom: 2%;
 }
 
