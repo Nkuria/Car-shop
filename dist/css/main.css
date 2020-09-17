@@ -188,7 +188,8 @@ img {
   color: #888;
 }
 
-.input input, .input select {
+.input input,
+.input select {
   height: 6vh;
   border-color: #d35266;
   border-width: 1px;
