@@ -87,18 +87,18 @@
   padding-top: 3%;
   padding-bottom: 5%;
 
-  input {
-    height: 6vh;
-    border-color: $red-color;
-    border-width: 1px;
-  }
-
   a {
     background-color: $dark-color;
     margin-left: 1%;
     height: 6vh;
     width: 8vw;
     color: $grey-color;
+  }
+  
+  input {
+    height: 6vh;
+    border-color: $red-color;
+    border-width: 1px;
   }
 }
 

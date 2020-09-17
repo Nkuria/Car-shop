@@ -189,18 +189,18 @@ img {
   padding-bottom: 5%;
 }
 
-.input input {
-  height: 6vh;
-  border-color: #d35266;
-  border-width: 1px;
-}
-
 .input a {
   background-color: #383838;
   margin-left: 1%;
   height: 6vh;
   width: 8vw;
   color: #888;
+}
+
+.input input {
+  height: 6vh;
+  border-color: #d35266;
+  border-width: 1px;
 }
 
 .input1 {
