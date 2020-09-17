@@ -76,10 +76,6 @@
 }
 
 .input {
-  @include flex;
-
-  align-items: center;
-  justify-content: center;
   padding-top: 3%;
   padding-bottom: 5%;
 
@@ -90,8 +86,8 @@
     width: 8vw;
     color: $grey-color;
   }
-
-  input {
+  
+  input, select {
     height: 6vh;
     border-color: $red-color;
     border-width: 1px;
@@ -273,13 +269,10 @@ footer {
   }
 
   .input {
-    input {
-      width: 20%;
-      height: 10%;
-    }
+   flex-direction: column;
 
-    a {
-      height: 5%;
-    }
+   input {
+     width: 100%;
+   }
   }
 }

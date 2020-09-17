@@ -176,15 +176,6 @@ img {
 }
 
 .input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding-top: 3%;
   padding-bottom: 5%;
 }
@@ -197,7 +188,7 @@ img {
   color: #888;
 }
 
-.input input {
+.input input, .input select {
   height: 6vh;
   border-color: #d35266;
   border-width: 1px;
@@ -387,12 +378,14 @@ footer {
   .cards-part {
     margin-left: 5%;
   }
-  .input input {
-    width: 20%;
-    height: 10%;
+  .input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .input a {
-    height: 5%;
+  .input input {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
