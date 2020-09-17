@@ -200,6 +200,7 @@ img {
   margin-left: 1%;
   height: 6vh;
   width: 8vw;
+  color: #888;
 }
 
 .input1 {
@@ -267,13 +268,19 @@ img {
 }
 
 .cards-part {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[4];
-      grid-template-columns: repeat(4, minmax(250px, 1fr));
   margin-top: 3%;
   margin-bottom: 5%;
+  margin-left: 4%;
   width: 100%;
+}
+
+.cards-part .fa-chevron-left {
+  margin-right: 5%;
+  font-size: 20px;
+}
+
+.cards-part .fa-chevron-right {
+  font-size: 20px;
 }
 
 .cards {
@@ -289,6 +296,7 @@ img {
           box-shadow: 0 4px 8px 0 #383838;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  margin-right: 3%;
   margin-bottom: 2%;
 }
 
@@ -329,17 +337,30 @@ footer {
   padding-bottom: 3%;
 }
 
+.checkbox-1 {
+  margin-bottom: 5%;
+}
+
+.search-par {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.search-items {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.results-img {
+  margin-right: 3%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .ad-section {
     margin: 0;
     width: 100%;
-  }
-  .fa-chevron-left,
-  .fa-chevron-right {
-    display: none;
-  }
-  .cards {
-    margin-right: 1%;
   }
 }
 
@@ -365,6 +386,13 @@ footer {
   }
   .cards-part {
     margin-left: 5%;
+  }
+  .input input {
+    width: 20%;
+    height: 10%;
+  }
+  .input a {
+    height: 5%;
   }
 }
 /*# sourceMappingURL=main.css.map */

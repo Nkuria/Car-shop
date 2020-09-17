@@ -31,8 +31,10 @@ Github: @Nkuria Linkedin: [Nick-github-link](https://www.linkedin.com/in/nick-ku
 
 Feel free to check the issues page.
 
+## Acknowledgments and licenses
+
 Show your support Give a ⭐️ if you like this project!
 
 Acknowledgments Hat tip to anyone whose code was used Inspiration etc
 
-📝 License This project is a aolo project of a microverse student. All rights are reserved for and Nick.
+📝 License This project is a solo project of a microverse student. All rights are reserved for and Nick.
