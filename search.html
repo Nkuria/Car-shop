@@ -31,8 +31,8 @@
           <button class="btn ad-btn" type="button">Post an AD</button>
         </div>
         <div class="nav-right ">
-          <div class="d-none d-md-none d-lg-block pr-2"> <i class="fas fa-envelope"></i></div>
-          <p class="d-none d-md-none d-lg-block pt-3"> John Doe</p>
+          <div class="d-none d-md-none d-lg-block pr-2 text-red"> <i class="fas fa-envelope"></i></div>
+          <p class="d-none d-md-none d-lg-block pt-3 text-red"> John Doe</p>
            <img class="doe-img d-none d-md-none d-lg-block" src="images/john-doe.jpg" alt="John Doe" />
          </div>
       </nav>
@@ -41,11 +41,18 @@
         <h1 class="h1">BuynDrive</h1>
 
         <h5>All your Car need in one place at affordable prices</h5>
-        <div class="input">
-          <input class="input1" type="text" value="  All types" />
-          <input class="input2" type="text" value="  Search by Category" />
-          <input class="input3" type="text" value="  Filter" />
-          <a class="btn search w-100" href="#">Search</a>
+        <div class="input d-flex align-items-center justify-content-center">
+          <div class="input-group">
+            <select class="custom-select" id="inputGroupSelect04">
+              <option selected>Select A type</option>
+              <option value="Toyota">Toyota</option>
+              <option value="BMW">BMW</option>
+              <option value="Subaru">Subaru</option>
+            </select>
+          </div>
+          <input class="input2" type="text" placeholder="  Search by Category" />
+          <input class="input3" type="text" placeholder="  Filter" />
+          <a class="btn search w-100" href="search.html">Search</a>
         </div>
       </div>
     </header>

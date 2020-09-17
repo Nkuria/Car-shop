@@ -82,9 +82,14 @@
   a {
     background-color: $dark-color;
     margin-left: 1%;
-    height: 6vh;
     width: 8vw;
-    color: $grey-color;
+    color: $red-color;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    &:hover {
+      color: $grey-color;
+    }
   }
 
   input,
