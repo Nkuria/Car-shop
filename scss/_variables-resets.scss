@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "helve-bold";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueBold.ttf");
+}
+
+@font-face {
+  font-family: "helve-light";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
+}
+
+@font-face {
+  font-family: "helve-medium";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
+}
+
+@font-face {
+  font-family: "goth-bold";
+  src: url("/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "goth-light";
+  src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
+}
+
+$red-color: #d35266;
+$grey-color: #888;
+$dark-color: #383838;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "goth-light", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: $grey-color;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-red {
+  color: $red-color;
+}
+
+.text-grey {
+  color: $grey-color;
+}
+
+.helve-bold {
+  font-family: "helve-bold", sans-serif;
+}
+
+.helve-light {
+  font-family: "helve-light", sans-serif;
+}
+
+.helve-medium {
+  font-family: "helve-medium", sans-serif;
+}
+
+.goth-bold {
+  font-family: "goth-bold", sans-serif;
+}
+
+.goth-light {
+  font-family: "goth-light", sans-serif;
+}
+
+.bg-red {
+  background-color: $red-color;
+}

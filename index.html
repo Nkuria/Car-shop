@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/16d2250538.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>BuynDrive</title>
+
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="nav-left">
+          <img class="logo-img p-0" src="images/logo.png" alt="Logo" />
+          <a class="home d-none d-md-block" href="#"><i class="fas fa-home"></i> Home</a>
+          <a class="d-none d-md-block text-red" href="#"><i class="fas fa-th-large"></i> Collections</a>
+          <a class="d-none d-md-block" href="#"><i class="fas fa-shopping-cart"></i></a>
+          <button class="btn ad-btn" type="button">Post an AD</button>
+        </div>
+        <div class="nav-right ">
+         <div class="d-none d-md-none d-lg-block pr-2 text-red"> <i class="fas fa-envelope"></i></div>
+         <p class="d-none d-md-none d-lg-block pt-3 text-red"> John Doe</p>
+          <img class="doe-img d-none d-md-none d-lg-block" src="images/john-doe.jpg" alt="John Doe" />
+        </div>
+      </nav>
+
+      <div class="name">
+        <h1 class="h1">BuynDrive</h1>
+
+        <h5>All your Car need in one place at affordable prices</h5>
+        <div class="input d-flex align-items-center justify-content-center">
+          <div class="input-group">
+            <select class="custom-select" id="inputGroupSelect04">
+              <option selected>Select A type</option>
+              <option value="Toyota">Toyota</option>
+              <option value="BMW">BMW</option>
+              <option value="Subaru">Subaru</option>
+            </select>
+          </div>
+          <input class="input2" type="text" placeholder="  Search by Category" />
+          <input class="input3" type="text" placeholder="  Filter" />
+          <a class="btn search w-100" href="search.html">Search</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="ad-section">
+      <h3 class="hot-deals text-red">Hot Deals</h3>
+      <div class="ad">
+        <i class="fas fa-arrow-circle-left"></i>
+        <div>
+          <img class="ad-img" src="images/cx5.jpg" alt="pic here" />
+        </div>
+
+        <div class="ad-details">
+          <p class="text-red goth-bold">2013 MAZDA CX-5</p>
+          <p class="goth-light h6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            nihil earum veniam vero nesciunt sit sed aut dolore illo pariatur!
+          </p>
+          <div class="ad-btns">
+            <button class="btn bg-red" type="button">$5000</button>
+            <button class="btn bg-red" type="button">
+              <i class="fas fa-shopping-cart"></i> Make order
+            </button>
+          </div>
+        </div>
+        <i class="fas fa-arrow-circle-right"></i>
+      </div>
+    </section>
+
+    <article class="article-1">
+      <section class="section-2">
+        <div class="heading">
+          <div class="heading-left">
+            <p class="goth-bold text-grey">
+              <i class="fas fa-car-side pr-2"></i> Sedan
+            </p>
+          </div>
+          <div class="heading-right">View All</div>
+        </div>
+
+        <div class="container-fluid cards-part">
+          <div class="row">
+            <i class="fas fa-chevron-left"></i>
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2">
+        <div class="heading">
+          <div class="heading-left">
+            <p class="goth-bold text-grey">
+              <i class="fas fa-car-side pr-2"></i> Sedan
+            </p>
+          </div>
+          <div class="heading-right">View All</div>
+        </div>
+
+        <div class="container-fluid cards-part">
+          <div class="row">
+            <i class="fas fa-chevron-left"></i>
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2">
+        <div class="heading">
+          <div class="heading-left">
+            <p class="goth-bold text-grey">
+              <i class="fas fa-car-side pr-2"></i> Sedan
+            </p>
+          </div>
+          <div class="heading-right">View All</div>
+        </div>
+
+        <div class="container-fluid cards-part">
+          <div class="row">
+            <i class="fas fa-chevron-left"></i>
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+
+            <div class="cards col-5 col-md-2 col-lg-2">
+              <img src="images/bmw-1.jpeg" alt="Pic here" />
+              <p class="helve-medium">2013 BMW 5 SERIES 528I DSC LED NAV</p>
+              <p class="text-red">New</p>
+              <p>Location: Singapore</p>
+              <div class="car-price d-flex justify-content-between">
+                <div class="add">
+                  <i class="far fa-plus-square"></i>
+                </div>
+                <p class="text-red">$1000</p>
+              </div>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <footer>
+      <div
+        class="ftr-top d-flex justify-content-around align-items-center border-bottom"
+      >
+        <div class="ftr-left">
+          <img src="images/logo.png" alt="logo Here" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt,
+            ipsum debitis! Aliquid voluptas animi suscipit atque temporibus quas
+            nulla molestias error impedit? Nulla debitis aliquam consequatur
+            ullam odit error deserunt?
+          </p>
+        </div>
+
+        <div class="ftr-right">
+          <div class="ftr-right-head">
+            <p class="text-red helve-bold">CATEGORIES</p>
+          </div>
+          <div class="ftr-content d-flex">
+            <div class="ftr-right-1 d-flex flex-column">
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+            </div>
+
+            <div class="d-flex flex-column">
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+              <a href="#">Lorem</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center copyright">
+        copyright <i class="far fa-copyright"></i> BuynDrive.com All Rights
+        Reserved. Designed by Nick Kuria
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
